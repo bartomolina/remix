@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					}
+				],
+				"name": "OperatorNotAllowed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "OPERATOR_FILTER_REGISTRY",
+				"outputs": [
+					{
+						"internalType": "contract IOperatorFilterRegistry",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "OperatorFilterer",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Inherits from OperatorFilterer and automatically subscribes to the default OpenSea subscription.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"royalties/opensea/OperatorFilterer.sol": "OperatorFilterer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"royalties/opensea/DefaultOperatorFilterer.sol": {
+			"keccak256": "0x0a52e996eae177226066bf067d81ba81fed58c43c6fd53f500516f935f43f515",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://982ebf5d17f505ac02ba411fcae1e4558283c7fba739a6cfd206baff6019b382",
+				"dweb:/ipfs/QmcmpgudoFbGwjU9RDdNsR3iKQ2QUPGxtGrs9VwKzMgAvm"
+			]
+		},
+		"royalties/opensea/IOperatorFilterRegistry.sol": {
+			"keccak256": "0xf312663d0f71573cfb40063ed3f99f7ffb2132955df4a0c18e34b049dadf71e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a93a320488e08a0f5d6fdfc01676956aa47fc87a158a3de95016236e2b24857",
+				"dweb:/ipfs/QmXeTBnY7nbRo5ESuxj4zT7dzSC3X78Wsje219jmqkrsWT"
+			]
+		},
+		"royalties/opensea/OperatorFilterer.sol": {
+			"keccak256": "0x7ccf093564c1358888c28d217d87a12d9dbd40c30bbfd9930fb9b608af7ab99c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a8db2f629d4a36e49fd10b167d5e5d86f276b419405d1659357c901fa611b79a",
+				"dweb:/ipfs/QmcqNbLtbwoGfffW4YN2Ch5x4P2jHTkKf6ZVC3uaKTCaZp"
+			]
+		}
+	},
+	"version": 1
+}

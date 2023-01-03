@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					}
+				],
+				"name": "OperatorNotAllowed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "OPERATOR_FILTER_REGISTRY",
+				"outputs": [
+					{
+						"internalType": "contract IOperatorFilterRegistry",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "This smart contract is meant to be inherited by token contracts so they can use the following:         - `onlyAllowedOperator` modifier for `transferFrom` and `safeTransferFrom` methods.         - `onlyAllowedOperatorApproval` modifier for `approve` and `setApprovalForAll` methods.",
+			"kind": "dev",
+			"methods": {},
+			"title": "OperatorFilterer",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Abstract contract whose constructor automatically registers and optionally subscribes to or copies another         registrant's entries in the OperatorFilterRegistry.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"royalties/opensea/DefaultBaseOperatorFilterer.sol": "DefaultBaseOperatorFilterer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"royalties/opensea/DefaultBaseOperatorFilterer.sol": {
+			"keccak256": "0xf134a39411c880ab73bd37f89a6cd4c73bcbd8004964c008076cdfc67c83dafe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c301e48a4dcfeb0dad6715df6a1230679c7b0ce5a2fc8dd2de433aac04a4d7b6",
+				"dweb:/ipfs/QmT9unMyZh86RkAXHF5yqUGa9H9ZRr6TgwKoRwA79d9Lj8"
+			]
+		},
+		"royalties/opensea/IOperatorFilterRegistry.sol": {
+			"keccak256": "0xf312663d0f71573cfb40063ed3f99f7ffb2132955df4a0c18e34b049dadf71e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a93a320488e08a0f5d6fdfc01676956aa47fc87a158a3de95016236e2b24857",
+				"dweb:/ipfs/QmXeTBnY7nbRo5ESuxj4zT7dzSC3X78Wsje219jmqkrsWT"
+			]
+		}
+	},
+	"version": 1
+}
