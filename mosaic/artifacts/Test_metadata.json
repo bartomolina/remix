@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mosaic/Test.sol": "Test"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@aave/lens-protocol/contracts/interfaces/ILensHub.sol": {
+			"keccak256": "0x789b8bad742032bb7d9f5499aec3f6f899f5265e26aa4b38cadaef5d9fcb0ec3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad9f5434eff3128db6a51209b803375d630fac04df6c282ff2623045b23f34d0",
+				"dweb:/ipfs/QmSzGyRhvL8vWfVfDC6PgEzdcEf6NaBUt9y2tmVcYyzmvZ"
+			]
+		},
+		"@aave/lens-protocol/contracts/libraries/DataTypes.sol": {
+			"keccak256": "0xe45a4de8ccf54234021dd34333ab17dcf813ceeadd9d4146214a96a1984f14c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0dab1e8626383281aa6543e5930f1a458227039ce3d180c5f01f58244e88637d",
+				"dweb:/ipfs/QmQigfKvGGBrE1rJ6oiGh2zAcsMXAZuYRQzjEsjHtCYrue"
+			]
+		},
+		"@superfluid-finance/ethereum-contracts/contracts/interfaces/agreements/IConstantFlowAgreementV1.sol": {
+			"keccak256": "0x8a191d6f5dcdfd97e8fbbe17382fa96f51dbaddea6ed704206e7cbda5d12cc65",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5bed573cf54d2406d0e7566ab6cd37c31025c6fab3b5b8d8ef9b79b1cab098fd",
+				"dweb:/ipfs/QmegphCXp9qTAvefUYyW8eGdaGQMLJ4JrEXELU7WhisRcS"
+			]
+		},
+		"@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperAgreement.sol": {
+			"keccak256": "0xb3701155641cb42103b206e66dcdc82c286f554189f9c9715b7146c0f1b6fbdc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8345c2c3fbc825eb133f05440665530569d5bd59acb8e1fcdea53593e9c7d49b",
+				"dweb:/ipfs/QmXNRYfqWDm8TofsoRw38GVa2LWzvPsGkF1H8Ro5E22CP7"
+			]
+		},
+		"@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluidToken.sol": {
+			"keccak256": "0xa68065a8a4da8cb3755364b714b2636861a22a268f8dd82a1be7b4686a1d02fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://deff30448cfeecc0ac555e35d6bd5d47acaffa9b2199e9f6b0dd0a01b2fbe4ed",
+				"dweb:/ipfs/QmayyxRBkgBT3yCCsQ96TAmFcrHVufqTGVnuNjLGy2Cva8"
+			]
+		},
+		"mosaic/Test.sol": {
+			"keccak256": "0xeeea0577822957ea2977efbe0527f3884db7576bf20105c7ddceef37c76af57c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e58723c3bdcbc77faac1f788deacee8161c28c259e9ca4a3003ec5e4e0c50af",
+				"dweb:/ipfs/QmfD79MwiB216W1M8ab47AasTzRDeB9orTiGR3KxJjHXpN"
+			]
+		}
+	},
+	"version": 1
+}
